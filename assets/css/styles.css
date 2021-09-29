@@ -8,16 +8,30 @@
   float: left;
   width: 33.33%;
 }
+.spacer{
+  height: 10vw;
+}
 .poster-background{
   background-color: rgb(154,171,178);
+  height: 37.5em;
+  z-index: 1;
+  width:80vw;
+}
+
+.mask{
+  background-color: white;
+  z-index:10;
 }
 .poster-text{
   transform: rotate(-40deg);
+  z-index:2;
+  width: 60vw;
+  float:right;
 }
 .eggshell{
   background-color: rgb(223,225,212);
-  font-size: 4em;
-  height: 2em;
+  height-max: 7em;
+  font-size: 400%;
 }
 .pink{
   background-color: rgb(236,0,136);
