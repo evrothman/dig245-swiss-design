@@ -13,9 +13,10 @@
 }
 .poster-background{
   background-color: rgb(154,171,178);
-  height: 37.5em;
+  height: calc(28em + 15vw);
   z-index: 1;
-  width:80vw;
+  width:95vw;
+  max-width: 42em;
 }
 
 .mask{
@@ -25,23 +26,24 @@
 .poster-text{
   transform: rotate(-40deg);
   z-index:2;
-  width: 60vw;
-  float:right;
+  width: 55vw;
+  max-width:35em;
+  margin:auto;
 }
 .eggshell{
   background-color: rgb(223,225,212);
-  height-max: 7em;
   font-size: 400%;
 }
 .pink{
   background-color: rgb(236,0,136);
-  height: 7em;
 }
 .purple{
   background-color: rgb(133,23,138);
-  height: 7em;
 }
 .black{
   background-color: rgb(0,0,10);
-  height: 7em;
+}
+.line{
+  height: 15vw;
+  max-height:15vh;
 }
